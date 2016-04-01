@@ -1,0 +1,8 @@
+.settings/
+logs/
+tmp/
+.project
+.classpath
+.log
+node/
+target/

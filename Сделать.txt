@@ -1,0 +1,15 @@
+userForm.jsp and user.jsp - может как-то объеденить
+
+from сливаетс€ им€ и фамили€
+
+резделение пользователей (user, admin)
+notification create, update user
+
+не добавл€ть контакт если поле пустое
+ѕоиск контакта плейс холдер - сделать......
+
+
+user letter only to him
+
+
+
