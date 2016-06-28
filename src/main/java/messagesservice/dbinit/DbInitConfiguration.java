@@ -6,6 +6,8 @@ import java.util.Set;
 
 import javax.sql.DataSource;
 
+import messagesservice.service.ContactService;
+import messagesservice.service.impl.ContactServiceImpl;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -107,6 +109,11 @@ public class DbInitConfiguration {
 	@Bean
 	public MessageServiceDbInit messageService() {
 		return new MessageServiceDbInit();
+	}
+
+	@Bean
+	public ContactService contactService() {
+		return new ContactServiceImpl();
 	}
 
 //	@Bean
